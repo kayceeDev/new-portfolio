@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("hjfkhjlhjlk")
   }
   else{
-    console.log(themeColor)
     themeColor=== lightMode ? setWhiteMode(): setDarkMode();
   };
 
