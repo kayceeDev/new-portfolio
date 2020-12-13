@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.target.id === "dot-1") {
       // tab.classList.toggle("hide-display");
     window.close()
+    
     }
   });
 });
