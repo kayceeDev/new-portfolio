@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const darkMode="blue-mode";
   if(!themeColor){ 
     setWhiteMode()
-    console.log("hjfkhjlhjlk")
   }
   else{
     themeColor=== lightMode ? setWhiteMode(): setDarkMode();
