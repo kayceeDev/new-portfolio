@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
       rightCol.classList.toggle("hide-display");
     }
     if (e.target.id === "dot-1") {
-      tab.classList.toggle("hide-display");
+      // tab.classList.toggle("hide-display");
+    window.close()
     }
   });
 });
