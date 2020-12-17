@@ -71,6 +71,21 @@ h6 {
   font-size: 16px;
 }
 
+.btn{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: var(--themeDotBorder);
+  margin: 10px 0px;
+  border-radius: 5px;
+  color: var(--mainColor);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-dark{
+  background-color: #192734;
+  color: #fff;
+}
 .s1 {
   background-color: var(--mainColor);
   border-bottom: 1px solid var(--border-color);
